@@ -26,14 +26,15 @@ export const commandResolvers: CommandResolver[] = [
 
 ## Setup
 ### 1) Install Node.js (https://nodejs.org/en)
-### 2) Create a config.json file at the top level of the project with the following format:
+### 2) Install ffmpeg (https://ffmpeg.org/download.html) and add it to your PATH
+### 3) Create a config.json file at the top level of the project with the following format:
 ```json
 {
   "TOKEN": "XXX",
   "CLIENT_ID": "XXX"
 }
 ```
-### 3) Run `npm i`, `npm run build`, then `npm run start`
-### 4) Done!
+### 4) Run `npm i`, `npm run build`, then `npm run start`
+### 5) Done!
 
 Please contact me at andressweeneyrios@gmail.com for any questions or concerns.
