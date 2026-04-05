@@ -70,7 +70,7 @@ export async function resolveTrack(input: string): Promise<Track> {
   const isUrl = /^https?:\/\//i.test(input)
   const query = isUrl ? input : `ytsearch:${input}`
 
-  const output = await ytdlp(`"${query}" --no-playlist --flat-playlist --print title --print url`)
+  const output = await ytdlp(`"${query}" --no-playlist --flat-playlist --print title --print webpage_url`)
   const lines = output.split("\n").filter(Boolean)
 
   if (lines.length < 2) {
