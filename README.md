@@ -33,7 +33,7 @@ export const commandResolvers: CommandResolver[] = [
   "CLIENT_ID": "XXX"
 }
 ```
-### 3) Run `npm i`, `npm build`, then `npm start`
+### 3) Run `npm i`, `npm run build`, then `npm run start`
 ### 4) Done!
 
 Please contact me at andressweeneyrios@gmail.com for any questions or concerns.
